@@ -27,13 +27,17 @@
         align-items: center;
         justify-content: left;
         transition: 0.3s linear all;
-        mat-icon{margin-right: 14px; font-size: 12px;}
+        mat-icon{margin-right: 14px; font-size: 22px;}
         &:hover{
             background: #e6e6e6;
            cursor: pointer;
             color: var(--primary-color);
         }
     }
-
-
+    .logout{
+        position: absolute;
+        bottom: 0;
+        width: 210px;
+    }
+    a {text-decoration: none;}
 }
