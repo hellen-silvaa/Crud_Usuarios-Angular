@@ -12,7 +12,7 @@ export class UsersService {
     nome: string='Hellen Silva';
 
     user:User = {
-      name: 'Hellen Silva',
+      nome: 'Hellen Silva',
       email: 'hellen@gmail.com',
       sector: 'Tecnologia',
       role: 'Empresária'
