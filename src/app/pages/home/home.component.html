@@ -1,4 +1,5 @@
 <app-menu></app-menu>
+
 <div class="container-fluid pt-3">
     <div class="row">
         <!-- LADO ESQUERDO DA TELA -->
@@ -20,14 +21,16 @@
                         </h3>
                         <app-button textButton="Iniciar" routerLink="/usuarios"></app-button>
                     </div>
-                    <div class="col-1 col-md-4">
+                    <div class="col-12 col-md-4">
                     <img src="../../../assets/dashboard.png" width="100%">
                 </div>
             </div>
             </div>
 
+
             <!-- PARTE DE BAIXO DA TELA  -->
             <div class="row mt-4">
+           
                 <!-- CARD SPINNER ESQUERDA -->
                 <div class="col-6">
                     <div class="card-info">
@@ -43,8 +46,8 @@
                         </div>
                     </div>
                 </div>
-            <!-- </div> -->
-                </div>
+            </div>
+
                 <!-- CARD SPINNER DIREITA -->
                 <div class="col-6">
                     <div class="card-info">
@@ -66,7 +69,9 @@
             <div class="col-12 mt-4">
                 <div class="card-info">
                     <h3 class="titulo">Último usuário cadastrado</h3>
+                   
                     <hr class="hr">
+                  
                     <div class="row">
                         <div class="col-1">
                             <mat-icon>account_circle</mat-icon>
@@ -79,17 +84,22 @@
                         </div>
                         <div class="col">
                             <p class="texto-p">Software Engineer</p>
-                        </div>        
-                    </div>
-                </div>
-        
+                        </div>   
+
+                    </div>  
+                </div>  
+                </div> 
+            </div>  
+        </div>   
+
+
                     <!-- LADO DIREITO DA TELA -->
                     <div class="col-12 col-lg-3">
                         <div class="card-info">
                             <div class="container-perfil">
-                                <img src="../../../assets/profile.jpg" class="img-perfil" width="90px">
+                                <img src="../../../assets/profile.jpg" class="img-perfil" >
                             <h4>Seja bem vindo(a)</h4>
-                            <h5>Hellen Silva</h5>
+                            <h5>{{userName}}</h5>
                             <li><mat-icon>location_on</mat-icon>SP - Brasil</li>
                             </div>
 
@@ -105,4 +115,3 @@
                     </div>
                 </div>
             </div>
-
